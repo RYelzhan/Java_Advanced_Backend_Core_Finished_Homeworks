@@ -1,10 +1,8 @@
 module jmp.app {
-    requires transitive jmp.bank.api;
-    requires transitive jmp.service.api;
     requires jmp.dto;
+    requires jmp.bank.api;
+    requires jmp.service.api;
 
-    uses com.epam.jmp.service.Bank;
+    uses com.epam.jmp.service.bank.Bank;
     uses com.epam.jmp.service.Service;
-
-    exports com.epam.jmp.app;
 }

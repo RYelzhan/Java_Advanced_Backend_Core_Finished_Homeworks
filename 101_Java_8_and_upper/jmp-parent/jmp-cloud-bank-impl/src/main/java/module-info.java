@@ -1,8 +1,10 @@
+import com.epam.jmp.impl.bank.BankImpl;
+
 module jmp.cloud.bank.impl {
     requires transitive jmp.bank.api;
     requires jmp.dto;
 
-    provides com.epam.jmp.service.Bank with com.epam.jmp.impl.BankImpl;
+    provides com.epam.jmp.service.bank.Bank with BankImpl;
 
-    exports com.epam.jmp.impl;
+    exports com.epam.jmp.impl.bank;
 }
