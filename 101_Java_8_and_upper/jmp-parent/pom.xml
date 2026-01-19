@@ -15,6 +15,7 @@
     <module>jmp-cloud-bank-impl</module>
     <module>jmp-cloud-service-impl</module>
     <module>jmp-dto</module>
+    <module>jmp-app</module>
   </modules>
 
   <properties>
