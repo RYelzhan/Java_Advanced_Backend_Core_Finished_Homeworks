@@ -17,6 +17,18 @@
     </properties>
 
     <dependencies>
+        <!-- JUnit 5 API: for writing tests -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.10.2</version>
+        </dependency>
 
+        <!-- JUnit 5 Engine: for running tests -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.10.2</version>
+        </dependency>
     </dependencies>
 </project>
