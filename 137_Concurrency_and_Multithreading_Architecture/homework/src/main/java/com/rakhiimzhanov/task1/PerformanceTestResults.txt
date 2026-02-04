@@ -1,0 +1,93 @@
+Java Version: 11.0.29 HIGH CONTENTION
+================================================================================
+Total operations: 1000000
+Warmup iterations: 2
+Test iterations: 5
+================================================================================
+
+Testing: UnsafeMap
+  Warming up.. done
+  Average time: 13 ms
+  Operations/sec: 76923076.92
+  Final map size: 1777
+
+Testing: SynchronizedMap
+  Warming up.. done
+  Average time: 47 ms
+  Operations/sec: 21276595.74
+  Final map size: 8
+
+Testing: ReadWriteLockMap
+  Warming up.. done
+  Average time: 239 ms
+  Operations/sec: 4184100.42
+  Final map size: 7
+
+Testing: ConcurrentHashMap
+  Warming up.. done
+  Average time: 17 ms
+  Operations/sec: 58823529.41
+  Final map size: 5
+
+Java Version: 17.0.17 HIGH CONTENTION
+================================================================================
+Total operations: 1000000
+Warmup iterations: 2
+Test iterations: 5
+================================================================================
+
+Testing: UnsafeMap
+  Warming up.. done
+  Average time: 11 ms
+  Operations/sec: 90909090.91
+  Final map size: 4903
+
+Testing: SynchronizedMap
+  Warming up.. done
+  Average time: 39 ms
+  Operations/sec: 25641025.64
+  Final map size: 8
+
+Testing: ReadWriteLockMap
+  Warming up.. done
+  Average time: 118 ms
+  Operations/sec: 8474576.27
+  Final map size: 5
+
+Testing: ConcurrentHashMap
+  Warming up.. done
+  Average time: 15 ms
+  Operations/sec: 66666666.67
+  Final map size: 6
+
+
+Java Version: 24.0.1 HIGH CONTENTION
+================================================================================
+Total operations: 1000000
+Warmup iterations: 2
+Test iterations: 5
+================================================================================
+
+Testing: UnsafeMap
+  Warming up.. done
+  Average time: 13 ms
+  Operations/sec: 76923076.92
+  Final map size: 1510
+
+Testing: SynchronizedMap
+  Warming up.. done
+  Average time: 44 ms
+  Operations/sec: 22727272.73
+  Final map size: 7
+
+Testing: ReadWriteLockMap
+  Warming up.. done
+  Average time: 82 ms
+  Operations/sec: 12195121.95
+  Final map size: 9
+
+Testing: ConcurrentHashMap
+  Warming up.. done
+  Average time: 16 ms
+  Operations/sec: 62500000.00
+  Final map size: 8
