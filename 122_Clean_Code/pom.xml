@@ -13,6 +13,7 @@
 
     <modules>
         <module>Library_Management_System</module>
+        <module>Employee</module>
         <!-- add future modules here -->
     </modules>
 
